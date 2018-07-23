@@ -65,7 +65,7 @@
         ?>
         <div class="alert alert-success" role="alert">
 
-          <strong>Vous êtes inscrit!</strong> Bienvenue a Simplon Fromage  <a href="connexion_view.php" class="alert-link">  Connectez-vous dès maintenant</a>.
+          <strong>Vous êtes inscrit!</strong> Bienvenue a Simplon Fromage : <a href="connexion_view.php" class="alert-link">  Connectez-vous dès maintenant</a>.
 
         </div>
 
