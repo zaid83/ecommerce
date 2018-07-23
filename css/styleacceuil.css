@@ -1,0 +1,134 @@
+
+
+html {
+    min-height:100%; 
+
+}
+body {
+
+    color:white;
+    background-color:black;
+    font-family: 'Noticia Text', serif; 
+    padding:0;
+    margin:0;
+}
+
+/**************************************/
+/*style de la ligne des deux colonnes */ 
+/**************************************/
+
+.row {
+ position:absolute;
+ top:0;
+ right:0;
+ left:0;
+ min-height:100%;
+}
+
+/***********************************/
+/*style de la colonne de gauche */ 
+/**********************************/
+
+.fromage-simplon {
+
+    width:100%;
+    min-height:100%;
+
+    padding-top:5%;
+    padding-bottom:28%;
+
+}
+.texteaccueil {
+   color:#FFA53F;
+   margin-top:220px;
+}
+.simplon{
+    color:white;
+    margin-bottom:40px;
+}
+
+/***********************************/
+/*style du bouton entrer */ 
+/**********************************/
+
+.boutonentrer {
+
+    text-decoration: none;
+    color:#FFA53F;
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+    border:1px solid #FFA53F;
+
+}
+/* style du bouton entrer au survol de la souris */
+
+.boutonentrer:hover {
+
+    text-decoration: none;
+    color:white;
+    background-color: #FFA53F;
+    padding:10px;
+    border-radius: 10px;
+    border:1px solid white;
+
+}
+
+
+
+/***********************************/
+/*style de la navbar */ 
+/**********************************/
+
+
+.navbaraccueil {
+
+
+   
+    width: 100%; 
+    
+}
+
+/* Style des liens de la navbar */
+
+.navbaraccueil a {
+
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;  /* Enleve le sous lignement */
+    font-size: 17px;
+
+}
+
+/* Change la couleur des liens et leur background au survol*/
+
+.navbaraccueil a:hover {
+    height: -15px; 
+    background-color: #ddd;
+    color: #FFA53F;
+}
+
+/* ajoute une couleur differente au lien actif */
+.navbaraccueil a.active {
+    background-color: #C0C0C0;
+    color: white;
+}
+
+/***********************************/
+/*style de l'image de droite */ 
+/**********************************/
+
+.imageaccueil {
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    min-height:100%;
+    width:100%;
+    z-index: -12;
+}
+
+
