@@ -34,11 +34,15 @@
 
                      //alors on fait un fetch et on demarre la session
                      $userinfo = $requser->fetch();
-
+                     $_SESSION['img'] = $userinfo['img_client'];
                      $_SESSION['id'] = $userinfo['id_client'];
                      $_SESSION['mail'] = $userinfo['mail_client'];
                      $_SESSION['nom'] = $userinfo['nom_client'];
                      $_SESSION['prenom'] = $userinfo['prenom_client'];
+                     $_SESSION['telephone'] = $userinfo['tel_client'];
+                     $_SESSION['adresse'] = $userinfo['adresse_client'];
+                     $_SESSION['cp'] = $userinfo['cp_client'];
+                     $_SESSION['ville'] = $userinfo['ville_client'];
 
                      //redirection vers la page d'accueil 
                      header("Location: ../index.php?id=".$_SESSION['id']);

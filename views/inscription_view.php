@@ -17,6 +17,9 @@
 
       <div class="texteaccueil text-center">
 
+                        <!--si une session est ouverte -->
+
+
         <h1 class="fromagerie ">Fromagerie Simplon</h1>
         <h5 class="simplon ">Vente de fromages européens</h5>
 

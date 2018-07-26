@@ -4,11 +4,11 @@
 
             <div class="navbaraccueil">
 
-               <a class="active" href="#">CONTACT</a>
+               <a href="contact_view.php">CONTACT</a>
                <a href="connexion_view.php">CONNEXION</a>
                <a href="inscription_view.php">INSCRIPTION</a>
-               <a href="#">SERVICES</a>
-               <a href="#">PRODUITS</a>
+               <a href="pagefromages_view.php">FROMAGES</a>
+               <a href="produits_view.php">PRODUITS</a>
                <a href="index_view.php">ACCUEIL</a>
 
            </div>
@@ -21,11 +21,11 @@
 
            <div class="navbaraccueil">
 
-               <a class="active" href="#">CONTACT</a>
+               <a href="contact_view.php">CONTACT</a>
                <a href="deconnexion.php">DECONNEXION</a>
                <a href="panier.php">PANIER</a>
-               <a href="#">SERVICES</a>
-               <a href="#">PRODUITS</a>
+               <a href="pagefromages_view.php">FROMAGES</a>
+               <a href="produits_view.php">PRODUITS</a>
                <a href="index_view.php">ACCUEIL</a>
 
            </div>

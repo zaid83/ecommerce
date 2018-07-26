@@ -14,7 +14,7 @@
                 <!--si une session est ouverte -->
 
                 <?php if(isset($_SESSION['id'])){ ?>
-                    <h3 style="color:white">Bienvenue: <span class="connecte" style="color:yellow"><?php echo $_SESSION['nom']; ?><a href="profil.php">(profil)</a></span></h3> 
+                    <h3 style="color:white">Bienvenue: <span class="connecte" style="color:yellow"><?php echo $_SESSION['nom']; ?><a href="profil_view.php">(profil)</a></span></h3> 
 
                 <?php } ?>
 

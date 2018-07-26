@@ -1,8 +1,24 @@
 
 font-family: 'Noticia Text', serif;
 font-family: 'Cinzel', serif;
-.all{
+#produit {
+   
+    
+
+}
+#all{
     position: relative;
+    top:65px;
+    left:-30px;
+    display: none;
+   
+}
+#all2{
+    position: relative;
+    top:65px;
+    left:-30px;
+    display: none;
+   
 }
 .backgroundfromage{
     position: relative;
@@ -54,6 +70,7 @@ font-family: 'Cinzel', serif;
     font-size: 14px;
     color:white;
     
+    width: 19%;
 }
 .prixfromage {
     top:460px;
@@ -116,10 +133,11 @@ font-family: 'Cinzel', serif;
     font-family: 'Noticia Text', serif;
     font-size: 14px;
      color: #ff9b3c;
+    width:25%;
 }
 .choixpoids {
     position: absolute;
-    top:400px;
+    top:440px;
     left:380px;
     font-family: 'Cinzel', serif;
     font-size: 14px;
@@ -222,7 +240,7 @@ font-family: 'Cinzel', serif;
     display: inline-block;
     
 }
-.boutoncroix {
+#boutoncroix {
     
    
     position: absolute;
