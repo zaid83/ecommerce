@@ -53,7 +53,7 @@ $BDD = new BDD();
                 <h5 class="simplon wow bounceInUp">Vente de fromages européens</h5>
 
                 <p class="boutonentrertexte">
-                   <a class="boutonentrer wow slideInDown" href="#">Commencer</a>
+                   <a class="boutonentrer" href="pagefromages_view.php">Commencer</a>
                </p>
            </div>
        </div>
@@ -77,7 +77,7 @@ $BDD = new BDD();
                <a href="views/contact_view.php">CONTACT</a>
                <a href="views/connexion_view.php">CONNEXION</a>
                <a href="views/inscription_view.php">INSCRIPTION</a>
-               <a href="views/pagesfromages_view.php">FROMAGES</a>
+               <a href="views/pagefromages_view.php">FROMAGES</a>
                <a href="views/produits_view.php">PRODUITS</a>
                <a href="views/index_view.php">ACCUEIL</a>
 
@@ -94,7 +94,7 @@ $BDD = new BDD();
                <a href="views/contact_view.php">CONTACT</a>
                <a href="views/deconnexion.php">DECONNEXION</a>
                <a href="views/panier.php">PANIER</a>
-               <a href="views/pagesfromages_view.php">FROMAGES</a>
+               <a href="views/pagefromages_view.php">FROMAGES</a>
                <a href="views/produits_view.php">PRODUITS</a>
                <a href="views/index_view.php">ACCUEIL</a>
 

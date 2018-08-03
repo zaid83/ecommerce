@@ -6,18 +6,14 @@ font-family: 'Cinzel', serif;
     
 
 }
-#all{
+#all,#all2,#all3,#all4,#all5,#all6{
     position: relative;
     top:65px;
     left:-30px;
     display: none;
    
 }
-#all2{
-    position: relative;
-    top:65px;
-    left:-30px;
-    display: none;
+
    
 }
 .backgroundfromage{
@@ -25,8 +21,8 @@ font-family: 'Cinzel', serif;
 }
 .imagefromage{
     position: absolute;
-    left:10px;
-    top:285px;
+    left:50px;
+    top:325px;
 }
 .logosimplon{
     
@@ -73,7 +69,7 @@ font-family: 'Cinzel', serif;
     width: 19%;
 }
 .prixfromage {
-    top:460px;
+    top:500px;
     left: 150px;
     position: absolute;
     font-family: 'Noticia Text', serif;
@@ -231,7 +227,7 @@ font-family: 'Cinzel', serif;
     left:490px;
     font-family: 'Noticia Text', serif;
     font-size: 15px;
-    background-color: #747474; 
+    background-color: orangered; 
     border-radius: 10px;
     color: white;
     padding: 15px 29px;
@@ -240,7 +236,7 @@ font-family: 'Cinzel', serif;
     display: inline-block;
     
 }
-#boutoncroix {
+#boutoncroix,#boutoncroix2,#boutoncroix3,#boutoncroix4,#boutoncroix5,#boutoncroix6 {
     
    
     position: absolute;

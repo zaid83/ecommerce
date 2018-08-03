@@ -13,7 +13,7 @@ if(isset($_POST['forminscription']))
  $telephone = htmlspecialchars($_POST['telephone']);
  $ville = htmlspecialchars($_POST['ville']);
 
-
+$imgclient="http://via.placeholder.com/300";
    $mdp = ($_POST['mdp']); //hashe le mot de passe
    $mdp2 = ($_POST['mdp2']);
 
@@ -62,9 +62,10 @@ $mdp= hash('sha512', $mdp);
 
             //insertion des donnees dans la base de données
 
-                 $insertmbr = $BDD->insert("client","nom_client,prenom_client,mail_client,mdp_client,tel_client,adresse_client,cp_client,ville_client",
-                  ":nom, :prenom,:mail,:mdp,:telephone,:adresse,:codepostal,:ville",
-                  array(':nom' => $nom,
+                 $insertmbr = $BDD->insert("client","img_client,nom_client,prenom_client,mail_client,mdp_client,tel_client,adresse_client,cp_client,ville_client",
+                  ":img_client,:nom, :prenom,:mail,:mdp,:telephone,:adresse,:codepostal,:ville",
+                  array(':img_client' => $imgclient,
+                    ':nom' => $nom,
                    ':prenom' => $prenom,
                    ':mail' => $mail,
                    ':mdp' => $mdp,

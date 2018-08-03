@@ -79,13 +79,18 @@
         </tr>
 
 </table>
-      
+
+
+              <?php $livraisons = $BDD->query('SELECT * FROM commandes NATURAL JOIN client WHERE id_client = '.$_SESSION['id'].' ');
 
 
 
+              foreach ($livraisons as $livraison):
+              ?>
+<?php $idcommande = $livraison -> id_commande; ?>
+<a href="resume.php?numerodecommande= <?= $livraison -> id_commande ; ?>">commande no <?= $livraison -> id_commande ; ?></a> <br>
 
-
-
+<?php endforeach; ?>
 
 
     </div>

@@ -13,7 +13,7 @@ color:;
 /*form styles*/
 #msform {
 	width: 800px;
-	margin: 0px auto;
+	margin: 0 auto;
 	text-align: center;
 	position: relative;
 
@@ -80,6 +80,7 @@ color:;
 }
 /*progressbar*/
 #progressbar {
+	
 	margin-bottom: 30px;
 	overflow: hidden;
 	/*CSS counters to number the steps*/

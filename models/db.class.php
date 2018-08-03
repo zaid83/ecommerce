@@ -1,5 +1,5 @@
 <?php class BDD {
-
+	
 	private $host = "localhost";
 	private $username = "root";
 	private $password = "root";
@@ -21,8 +21,8 @@
 				));
 		}catch(PDOException $e){
 			die('<h1>Impossible de se connecter a la base de donnee</h1>');
-		}
-
+		
+}
  }
 
 
@@ -37,9 +37,9 @@
  public function insert($table, $columns, $values, $execute){
     $sql = "INSERT INTO
             $table ($columns)
-            VALUES ($values)"; 
+            VALUES ($values)";
     $query = $this->bdd->prepare($sql);
-    $query->execute($execute);      
+    $query->execute($execute);
  }
 
       public function query($sql, $data=array()){
@@ -53,7 +53,7 @@
       $req = $this->bdd->prepare($sql);
       $req->execute($donnees);
        return $req;
-     
+
 
    }
 
@@ -64,6 +64,6 @@
 
 
 
-   
+
 
 }

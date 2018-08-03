@@ -1,4 +1,18 @@
+<?php
+session_start();
 
+if (!isset($_SESSION['id'])){
+    header("Location: connexion_view.php");
+}
+
+require  "../models/db.class.php";
+$BDD = new BDD();
+require  "../models/panier.class.php";
+$panier = new panier($BDD);
+
+
+
+?>
 
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/styleacceuil.css">
@@ -7,15 +21,15 @@
 <link rel="stylesheet" href="../css/stylecontact.css">
 <link rel="stylesheet" href="../css/responsive-contact.css">
 <link rel="stylesheet" href="../css/panier.css">
-<link rel="stylesheet" href="multiforms.css">
+<link rel="stylesheet" href="../css/multiforms.css">
 
 
     <body>
 <div class="entete">
 <?php require 'navbar.php' ; ?>
-        
+
         <img src="../assets/img_contact/bgcontact.jpg" alt="background-contact" class="backgroundcontact">
-        
+
 
           </div>
 <div class="formcontact">
@@ -27,12 +41,13 @@
             </div>
 
 <!-- multistep form -->
-<form id="msform">
+<div id="msform">
     <!-- progressbar -->
     <ul id="progressbar">
         <li class="active"></li>
         <li></li>
         <li></li>
+
     </ul>
 
 
@@ -44,34 +59,49 @@
 
     <!-- fieldsets -->
     <fieldset>
+
         <h1 class="fs-title"> Votre Panier </h1>
         <br>
         <br>
+
  <table class="table table-striped text-center">
+
         <thead>
             <tr>
                 <td>Image du produit</td>
                 <td>Nom</td>
                 <td>Provenance</td>
                 <td>Quantite</td>
-                <td>Prix</td>   
+                <td>Prix</td>
+                <td>Action</td>
             </tr>
         </thead>
         <tbody>
+        <form action="" method ="POST">
+                  <?php
+
+             $ids = array_keys($_SESSION['panier']);
+                $fromage = array();
+              if(empty($ids)){
+              }else{
+           $fromage = $BDD->query('SELECT * FROM fromage NATURAL JOIN pays
+NATURAL JOIN categories  WHERE id_fromage IN ('.implode(',',$ids).')');
+
+         }
+
+             foreach($fromage as $fromage):
+
+              ?>
+
             <tr>
-                <td><img src="https://www.graindorge.fr/wp-content/uploads/2016/01/camembert1.png" width="100"></td>
-                <td>Camembert</td>
-                <td>France</td>
-                <td>3</td>
-                <td>19,00€</td>
+                <td><img src="<?= $fromage->img_fromage; ?>" width="100"></td>
+                <td><?= $fromage->nom_fromage; ?></td>
+                <td><?= $fromage->nom_pays; ?></td>
+                <td><input type="number" name="panier[quantity1][<?= $fromage->id_fromage; ?>]" value="<?= $_SESSION['panier'][$fromage->id_fromage]; ?>"></td>
+                <td><?= number_format($fromage->prix_fromage,2,',',' '); ?>€</td>
+                <td><a href="panier.php?delPanier=<?= $fromage->id_fromage; ?>" class="del">Supprimer</a></td>
             </tr>
-                        <tr>
-                <td><img src="https://www.graindorge.fr/wp-content/uploads/2016/01/camembert1.png" width="100"></td>
-                <td>Camembert</td>
-                <td>France</td>
-                <td>3</td>
-                <td>19,00€</td>
-            </tr>
+             <?php endforeach; ?>
             <tr>
                 <td></td>
                 <td></td>
@@ -84,11 +114,16 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td class="prixht">38,00€</td>
+                <td class="prixht"><?= number_format($panier->total(),2,',',' '); ?>€</td>
             </tr>
+
         </tbody>
     </table>
+       
+        </form>
+
         <input type="button" name="next" class="next action-button" value="Next" />
+
     </fieldset>
 
 
@@ -101,31 +136,50 @@
 
 
 
-
-
-
-
     <fieldset>
+        <form action="addlivraison.php" method ="POST">
+
+
         <h2 class="fs-title">Livraison</h2>
              <div class="form-group">
     <input type="text" class="form-control" id="adresse" name="adresse" placeholder="Votre Adresse">
   </div>
 <div class="form-group">
-    <input type="text" class="form-control" id="codepostal" name="codepostal" placeholder="Votre Code Postal">
+    <input type="text" class="form-control" id="codepostal" name="codepostal" placeholder="Votre Code postal" minlength="5" maxlength="5">
   </div>
 
   <div class="form-group">
     <input type="text" class="form-control" id="ville" name="ville" placeholder="Votre Ville">
   </div>
   <div class="form-group">
-    <input type="tel" class="form-control" id="telephone" name="telephone" placeholder="Votre Telephone">
+    <input type="tel" class="form-control" id="telephone" name="telephone" pattern="[0-9]{10}" placeholder="Votre Numero de Telephone" minlength="10" maxlength="10">
   </div>
-   
-        <input type="button" name="previous" class="previous action-button" value="Previous" />
-        <input type="button" name="next" class="next action-button" value="Next" />
+
+       
+        <input type="submit" name="commandesubmit" class="next action-button livraison" value="envoyer" />
+    </form>
+
+
     </fieldset>
 
 
+<fieldset id=""field3>
+
+<h2>Votre commande a bien été pris en compte <a href ="profil_view.php">Vos dernieres commandes ici !!!</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</fieldset>
 
 
 
@@ -149,77 +203,17 @@
 
 
 
-    <fieldset>
-        <h1 class="fs-title"> Resume de commandes </h1>
-        <br>
-        <br>
-
-
-<table>
-       <tr>
-        <td class="label">ADRESSE: </td>
-         <td>Rue Jean Coqueteau</td>
-       </tr>
-       <tr>
-        <td class="label">CP: </td>
-         <td>13048</td>
-       </tr>
-        <tr>
-            <td class="label">VILLE: </td>
-            <td>Marseille</td>
-        </tr>
-           <tr>
-            <td class="label">TEL: </td>
-            <td>0648975782</td>
-        </tr>
-
-</table>
-
-<br>
-<br>
-
- <table class="table table-striped text-center">
-        <thead>
-            <tr>
-                <td>Image du produit</td>
-                <td>Nom</td>
-                <td>Provenance</td>
-                <td>Quantite</td>
-                <td>Prix</td>   
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><img src="https://www.graindorge.fr/wp-content/uploads/2016/01/camembert1.png" width="100"></td>
-                <td>Camembert</td>
-                <td>France</td>
-                <td>3</td>
-                <td>19 €</td>
-            </tr>
-                        <tr>
-                <td><img src="https://www.graindorge.fr/wp-content/uploads/2016/01/camembert1.png" width="100"></td>
-                <td>Camembert</td>
-                <td>France</td>
-                <td>3</td>
-                <td>19 €</td>
-            </tr>
-        </tbody>
-    </table>
-        <input type="button" name="previous" class="previous action-button" value="Previous" />
-        <input type="submit" class="next action-button" id="validcommande" name="formcommande" placeholder="ValiderCommande" >
-    </fieldset>
-    
-        
-</form>
+</div>
 
 
                     </div>
-        <!-- jQuery -->
+
+
 
 <!-- jQuery easing plugin -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js" type="text/javascript"></script>
 
-<script src="multiforms.js"></script>
+<script src="../js/multiforms.js"></script>
      </body>
 </html>

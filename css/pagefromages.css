@@ -1,18 +1,8 @@
-body {
-    
-    width: auto;
-    height:auto;
-   background-color: #020202; 
-}
 
 
 .map__image{
     
-   float: right;
-   
-    position: absolute;
-    bottom:80px;
-    left:365px;
+
 
 }
 .map__image path{
@@ -34,21 +24,20 @@ body {
 
 }
 
-#carrea{
-    position: absolute;
-    left:-4px;
-    top:-2px;
-    
-    background-color: orange;
-    height: 663px;
-    width: 500px;
-    float: left;
+.col-xl-4{
+background-color: orange;
+text-align: center;
 
+}
+sup{
+    background-color:red;
+    padding:10px 15;
+    border-radius: 120px;
 }
 .barre {
     color:#fff;
     position: absolute;
-     top:2px;
+     top:10px;
     left:80px;
     font-size: 30px;
     font-family: arial;
@@ -56,22 +45,44 @@ body {
 }
 
 .texte1 {
-     position: absolute;
-     top:1px;
-     left: 80px;
+
      color:black;
      font-family: 'cinzel', cursive;
+    margin-bottom:60px;
     
 }
 .texte2 {
-     position: absolute;
+  
      color:white;
      font-family: 'cinzel', cursive;
      text-align: center;
-     top: 150px;
+    margin-bottom:80px;
     
 }
 
+
+.boutonentrer {
+   
+    text-decoration: none;
+    color:#FFA53F;
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+    border:1px solid #FFA53F;
+
+}
+/* style du bouton entrer au survol de la souris */
+
+.boutonentrer:hover {
+
+    text-decoration: none;
+    color:white;
+    background-color: #FFA53F;
+    padding:10px;
+    border-radius: 10px;
+    border:1px solid white;
+
+}
 
 
 
