@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/views/panier.php" line="204" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af7e9424-b8fa-4465-aa85-b50179d06055" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/views/addlivraison.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/views/panier.php" afterPath="$PROJECT_DIR$/views/panier.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="profil_view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/profil_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+              <folding>
+                <marker date="1533263449613" expanded="true" signature="2066:2128" ph="SELECT * FRO... commandes" />
+                <marker date="1533263449613" expanded="true" signature="2066:2147" ph="SELECT * FRO... commandes" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="panier.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/panier.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="135" column="0" lean-forward="true" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+              <folding>
+                <marker date="1533296380381" expanded="true" signature="2274:2382" ph="SELECT * FRO... fromage" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resume.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/resume.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2227">
+              <caret line="131" column="0" lean-forward="true" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+              <folding>
+                <marker date="1533285155003" expanded="true" signature="1576:1639" ph="SELECT * FRO... commandes" />
+                <marker date="1533285155003" expanded="true" signature="1576:1640" ph="SELECT * FRO... commandes" />
+                <marker date="1533285155003" expanded="true" signature="1576:1642" ph="SELECT * FRO... commandes" />
+                <marker date="1533285155003" expanded="true" signature="1576:1648" ph="SELECT * FRO... commandes" />
+                <marker date="1533285155003" expanded="true" signature="1576:1665" ph="SELECT * FRO... commandes" />
+                <marker date="1533285155003" expanded="true" signature="1576:1668" ph="SELECT * FRO... commandes" />
+                <marker date="1533285155003" expanded="true" signature="1576:1669" ph="SELECT * FRO... commandes" />
+                <marker date="1533285155003" expanded="true" signature="1576:1670" ph="SELECT * FRO... commandes" />
+                <marker date="1533285155003" expanded="true" signature="1576:1672" ph="SELECT * FRO... commandes" />
+                <marker date="1533285155003" expanded="true" signature="1576:1849" ph="SELECT * FRO... commandes" />
+                <marker date="1533285155003" expanded="true" signature="1914:1927" ph="..." />
+                <marker date="1533285155003" expanded="true" signature="2319:2657" ph="..." />
+                <marker date="1533285155003" expanded="true" signature="2340:2568" ph="..." />
+                <marker date="1533285155003" expanded="true" signature="2357:2547" ph="..." />
+                <marker date="1533285155003" expanded="true" signature="2588:2657" ph="..." />
+                <marker date="1533285155003" expanded="true" signature="2659:2773" ph="SELECT * FRO... fromage" />
+                <marker date="1533285155003" expanded="true" signature="2659:2802" ph="SELECT * FRO... commandes" />
+                <marker date="1533285155003" expanded="true" signature="2659:2803" ph="SELECT * FRO... commandes" />
+                <marker date="1533285155003" expanded="true" signature="2904:3252" ph="..." />
+                <marker date="1533285155003" expanded="true" signature="3355:3546" ph="..." />
+                <marker date="1533285155003" expanded="true" signature="3567:3768" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pagefromages_view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/pagefromages_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ficheproduits.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/ficheproduits.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="209" column="20" lean-forward="true" selection-start-line="209" selection-start-column="20" selection-end-line="209" selection-end-column="20" />
+              <folding>
+                <marker date="1533285998109" expanded="true" signature="49:136" ph="SELECT * FRO... fromage" />
+                <marker date="1533285998109" expanded="true" signature="2027:2114" ph="SELECT * FRO... fromage" />
+                <marker date="1533285998109" expanded="true" signature="4015:4102" ph="SELECT * FRO... fromage" />
+                <marker date="1533285998109" expanded="true" signature="5999:6086" ph="SELECT * FRO... fromage" />
+                <marker date="1533285998109" expanded="true" signature="7820:7907" ph="SELECT * FRO... fromage" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stylefiche.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/stylefiche.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$fromage</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/views/profil_view.php" />
+        <option value="$PROJECT_DIR$/views/addlivraison.php" />
+        <option value="$PROJECT_DIR$/css/stylefiche.css" />
+        <option value="$PROJECT_DIR$/views/resume.php" />
+        <option value="$PROJECT_DIR$/views/pagefromages_view.php" />
+        <option value="$PROJECT_DIR$/models/ficheproduits.php" />
+        <option value="$PROJECT_DIR$/views/panier.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fromagerie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fromagerie" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="fromagerie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fromagerie" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="fromagerie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fromagerie" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="fromagerie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fromagerie" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/pagefromages_view.php" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="fromagerie" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.fromagerie" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af7e9424-b8fa-4465-aa85-b50179d06055" name="Default" comment="" />
+      <created>1533122892948</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533122892948</updated>
+      <workItem from="1533122895685" duration="3103000" />
+      <workItem from="1533150657422" duration="49106000" />
+    </task>
+    <task id="LOCAL-00001" summary="mise ajour panier&#10;dernieres commandes dans profil&#10;pages commandes">
+      <created>1533287860798</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533287860798</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="52209000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287879" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23645681" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mise ajour panier&#10;dernieres commandes dans profil&#10;pages commandes" />
+    <option name="LAST_COMMIT_MESSAGE" value="mise ajour panier&#10;dernieres commandes dans profil&#10;pages commandes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/views/addlivraison.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/panier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="16" lean-forward="true" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+          <folding>
+            <marker date="1533296380381" expanded="true" signature="2274:2382" ph="SELECT * FRO... fromage" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/profil_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding>
+            <marker date="1533263449613" expanded="true" signature="2066:2128" ph="SELECT * FRO... commandes" />
+            <marker date="1533263449613" expanded="true" signature="2066:2147" ph="SELECT * FRO... commandes" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/addlivraison.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="82" column="48" lean-forward="true" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/addpanier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding>
+            <marker date="1532863849266" expanded="true" signature="203:254" ph="SELECT id_fr... fromage" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/panier.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1166">
+          <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+          <folding>
+            <marker date="1532864913362" expanded="true" signature="1812:1899" ph="SELECT id_fr... fromage" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/db.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="22" column="75" lean-forward="true" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
+          <folding>
+            <marker date="1533122949567" expanded="true" signature="823:893" ph="INSERT INTO ${$table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/resume.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2227">
+          <caret line="131" column="0" lean-forward="true" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <folding>
+            <marker date="1533285155003" expanded="true" signature="1576:1639" ph="SELECT * FRO... commandes" />
+            <marker date="1533285155003" expanded="true" signature="1576:1640" ph="SELECT * FRO... commandes" />
+            <marker date="1533285155003" expanded="true" signature="1576:1642" ph="SELECT * FRO... commandes" />
+            <marker date="1533285155003" expanded="true" signature="1576:1648" ph="SELECT * FRO... commandes" />
+            <marker date="1533285155003" expanded="true" signature="1576:1665" ph="SELECT * FRO... commandes" />
+            <marker date="1533285155003" expanded="true" signature="1576:1668" ph="SELECT * FRO... commandes" />
+            <marker date="1533285155003" expanded="true" signature="1576:1669" ph="SELECT * FRO... commandes" />
+            <marker date="1533285155003" expanded="true" signature="1576:1670" ph="SELECT * FRO... commandes" />
+            <marker date="1533285155003" expanded="true" signature="1576:1672" ph="SELECT * FRO... commandes" />
+            <marker date="1533285155003" expanded="true" signature="1576:1849" ph="SELECT * FRO... commandes" />
+            <marker date="1533285155003" expanded="true" signature="1914:1927" ph="..." />
+            <marker date="1533285155003" expanded="true" signature="2319:2657" ph="..." />
+            <marker date="1533285155003" expanded="true" signature="2340:2568" ph="..." />
+            <marker date="1533285155003" expanded="true" signature="2357:2547" ph="..." />
+            <marker date="1533285155003" expanded="true" signature="2588:2657" ph="..." />
+            <marker date="1533285155003" expanded="true" signature="2659:2773" ph="SELECT * FRO... fromage" />
+            <marker date="1533285155003" expanded="true" signature="2659:2802" ph="SELECT * FRO... commandes" />
+            <marker date="1533285155003" expanded="true" signature="2659:2803" ph="SELECT * FRO... commandes" />
+            <marker date="1533285155003" expanded="true" signature="2904:3252" ph="..." />
+            <marker date="1533285155003" expanded="true" signature="3355:3546" ph="..." />
+            <marker date="1533285155003" expanded="true" signature="3567:3768" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pagefromages_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/ficheproduits.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="209" column="20" lean-forward="true" selection-start-line="209" selection-start-column="20" selection-end-line="209" selection-end-column="20" />
+          <folding>
+            <marker date="1533285998109" expanded="true" signature="49:136" ph="SELECT * FRO... fromage" />
+            <marker date="1533285998109" expanded="true" signature="2027:2114" ph="SELECT * FRO... fromage" />
+            <marker date="1533285998109" expanded="true" signature="4015:4102" ph="SELECT * FRO... fromage" />
+            <marker date="1533285998109" expanded="true" signature="5999:6086" ph="SELECT * FRO... fromage" />
+            <marker date="1533285998109" expanded="true" signature="7820:7907" ph="SELECT * FRO... fromage" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stylefiche.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/panier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="135" column="0" lean-forward="true" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+          <folding>
+            <marker date="1533296380381" expanded="true" signature="2274:2382" ph="SELECT * FRO... fromage" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

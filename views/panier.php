@@ -137,7 +137,7 @@ NATURAL JOIN categories  WHERE id_fromage IN ('.implode(',',$ids).')');
 
 
     <fieldset>
-        <form action="addlivraison.php" method ="POST">
+        <form action="../controllers/addlivraison.php" method ="POST">
 
 
         <h2 class="fs-title">Livraison</h2>
