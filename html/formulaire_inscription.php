@@ -28,7 +28,7 @@
     <input type="text" class="form-control" id="ville" name="ville" placeholder="Votre ville">
   </div>
    <div class="form-group">
-    <input type="submit" class="form-control" id="valideinscription" name="forminscription" placeholder="S'inscrire" >
+    <input type="submit" class="form-control" id="valideinscription" name="forminscription" value="S'inscrire" >
   </div>
 
 </form>

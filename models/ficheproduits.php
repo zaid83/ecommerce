@@ -14,9 +14,9 @@ WHERE pays.id_pays = 1');
         <img src="<?= $fromage->img_fromage; ?>" class="imagefromage" alt="image du fromage">
           <img src="../assets/img_fromages/logosimplonfromage.png" class="logosimplon" alt="logo de simplon">
            <a href="" target="_blank">
-           	<?php if ($fromage->id_categories=2){ ?>
+           	<?php if ($fromage->id_categories == 2){ ?>
            	<img src="../assets/img_fromages/mouton.png" class="mouton" alt="logo de mouton"></a>
-           <?php } else if ($fromage->id_categories=1){ ?>
+           <?php } else if ($fromage->id_categories == 1){ ?>
            	<img src="../assets/img_fromages/vache.png" class="mouton"  alt="logo de vache"></a>
            <?php } else { ?>
               <img src="../assets/img_fromages/chevre.png" class="mouton"  alt="logo de chevre"></a>
@@ -63,10 +63,10 @@ WHERE pays.id_pays = 2');
         <img src="<?= $fromage->img_fromage; ?>" class="imagefromage" alt="image du fromage">
           <img src="../assets/img_fromages/logosimplonfromage.png" class="logosimplon" alt="logo de simplon">
            <a href="youtube.com" target="_blank">
-           	<?php if ($fromage->id_categories=2){ ?>
+           	<?php if ($fromage->id_categories == 2){ ?>
 
            	<img src="../assets/img_fromages/vache.png" class="mouton" alt="logo de mouton"></a>
-           <?php } else if ($fromage->id_categories=1){ ?>
+           <?php } else if ($fromage->id_categories == 1){ ?>
            	<img src="../assets/img_fromages/vache.png" class="mouton"  alt="logo de vache"></a>
            <?php } else { ?>
               <img src="../assets/img_fromages/chevre.png" class="mouton"  alt="logo de chevre"></a>
@@ -109,11 +109,11 @@ WHERE pays.id_pays = 3');
       <img src="../assets/img_fromages/background_produit.png" alt="background-produits">
         <img src="<?= $fromage->img_fromage; ?>"  class="imagefromage" alt="image du fromage">
           <img src="../assets/img_fromages/logosimplonfromage.png" class="logosimplon" alt="logo de simplon">
-           <a href="youtube.com" target="_blank">
-           	<?php if ($fromage->id_categories=2){ ?>
+           <a href="" target="_blank">
+           	<?php if ($fromage->id_categories == 2){ ?>
 
            	<img src="../assets/img_fromages/mouton.png" class="mouton" alt="logo de mouton"></a>
-           <?php } else if ($fromage->id_categories=1){ ?>
+           <?php } else if ($fromage->id_categories == 1){ ?>
            	<img src="../assets/img_fromages/vache.png" class="mouton"  alt="logo de vache"></a>
            <?php } else { ?>
               <img src="../assets/img_fromages/chevre.png" class="mouton"  alt="logo de chevre"></a>
@@ -154,11 +154,11 @@ WHERE pays.id_pays = 4');
       <img src="../assets/img_fromages/background_produit.png">
         <img src="<?= $fromage->img_fromage; ?>" class="imagefromage">
           <img src="../assets/img_fromages/logosimplonfromage.png" class="logosimplon">
-           <a href="youtube.com" target="_blank">
-           	<?php if ($fromage->id_categories=2){ ?>
+           <a href="" target="_blank">
+           	<?php if ($fromage->id_categories == 2){ ?>
 
            	<img src="../assets/img_fromages/chevre.png" class="mouton"></a>
-           <?php } else if ($fromage->id_categories=1){ ?>
+           <?php } else if ($fromage->id_categories == 1){ ?>
            	<img src="../assets/img_fromages/vache.png" class="mouton"></a>
            <?php } else { ?>
               <img src="../assets/img_fromages/chevre.png" class="mouton"></a>
@@ -199,11 +199,11 @@ WHERE pays.id_pays = 5');
       <img src="../assets/img_fromages/background_produit.png">
         <img src="<?= $fromage->img_fromage; ?>" class="imagefromage">
           <img src="../assets/img_fromages/logosimplonfromage.png" class="logosimplon">
-           <a href="youtube.com" target="_blank">
-           	<?php if ($fromage->id_categories=2){ ?>
+           <a href="" target="_blank">
+           	<?php if ($fromage->id_categories == 2){ ?>
 
            	<img src="../assets/img_fromages/mouton.png" class="mouton"></a>
-           <?php } else if ($fromage->id_categories=1){ ?>
+           <?php } else if ($fromage->id_categories == 1){ ?>
            	<img src="../assets/img_fromages/vache.png" class="mouton"></a>
            <?php } else { ?>
               <img src="../assets/img_fromages/chevre.png" class="mouton"></a>
@@ -222,7 +222,7 @@ WHERE pays.id_pays = 5');
        <h3 class="details">Détails</h3>
        <h2 class="desc3"><?= $fromage->details_fromage; ?></h2>
 
-       <p class="boutonpanier"><a class="boutonajouter addPanier" href="addpanier.php?id=<?= $fromage->id_fromage; ?>">Ajouter au Panier</a></p>
+       <p class="boutonpanier"><a class="boutonajouter addPanier" href="../controller/addpanier.php?id=<?= $fromage->id_fromage; ?>">Ajouter au Panier</a></p>
         
       </div>
     

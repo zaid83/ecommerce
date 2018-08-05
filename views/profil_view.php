@@ -1,7 +1,7 @@
 
 <?php require 'head.php' ?>
 
-<?php require '../controller/add_inscription.php' ?>
+
 
 <!-- Les liens CSS -->
 <title> Profil </title>
@@ -41,14 +41,14 @@
         <?php require 'navbar.php' ?>
        
         <h2>Mon Profil</h2>
-
-      <img src="<?php echo $_SESSION['img']; ?>" width="250" height="250">
+              <!-- Image de profil session img correspond a l'image de session-->
+              <img src="<?php echo $_SESSION['img']; ?>" width="250" height="250" alt="image de profil">
 
       <br>
       <br>
       <br>
-
-<table class="table">
+              <!-- profil de la session -->
+              <table class="table">
          <tr>
         <td class="label">NOM: </td>
          <td><?php echo $_SESSION['nom']; ?></td>
@@ -80,6 +80,7 @@
 
 </table>
 
+              <!-- Recherche des dernieres commandes de l'utilisateur-->
 
               <?php $livraisons = $BDD->query('SELECT * FROM commandes NATURAL JOIN client WHERE id_client = '.$_SESSION['id'].' ');
 
@@ -87,8 +88,10 @@
 
               foreach ($livraisons as $livraison):
               ?>
-<?php $idcommande = $livraison -> id_commande; ?>
-<a href="resume.php?numerodecommande= <?= $livraison -> id_commande ; ?>">commande no <?= $livraison -> id_commande ; ?></a> <br>
+                  <!-- liste des differentes commandes -->
+                  <?php $idcommande = $livraison -> id_commande; ?>
+                  <!-- liens qui envoient vers un resume de commande-->
+                  <a href="resume.php?numerodecommande= <?= $livraison -> id_commande ; ?>">commande no <?= $livraison -> id_commande ; ?></a> <br>
 
 <?php endforeach; ?>
 

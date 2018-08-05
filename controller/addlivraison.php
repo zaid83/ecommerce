@@ -80,7 +80,7 @@ NATURAL JOIN categories  WHERE id_fromage IN ('.implode(',',$ids).')');
                                 ':qtite' => $_SESSION['panier'][$idfromage->id_fromage] ));
 
                     }
-                    header('Location:profil_view.php');
+                    header('Location:../views/profil_view.php');
                     $success = true;
 
 

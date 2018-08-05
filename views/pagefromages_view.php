@@ -160,51 +160,38 @@
      <?php require '../models/ficheproduits.php' ?>
     <script>
 
-	
-document.querySelector("#PT1").onclick = function() { 
 
-document.querySelector("#all").style.display=(window.getComputedStyle(document.querySelector('#all')).display=='none') ? "block" : "none"; 
-}
+        document.querySelector("#PT1").onclick = function() {
+            document.querySelector("#all").style.display=(window.getComputedStyle(document.querySelector('#all')).display=='none') ? "block" : "none";
+        }
+        document.querySelector("#boutoncroix").onclick = function() {
+            document.querySelector("#all").style.display=(window.getComputedStyle(document.querySelector('#all')).display=='none') ? "block" : "none";
+        }
+        document.querySelector("#ES").onclick = function() {
+            document.querySelector("#all3").style.display=(window.getComputedStyle(document.querySelector('#all3')).display=='none') ? "block" : "none";
+        }
+        document.querySelector("#boutoncroix3").onclick = function() {
+            document.querySelector("#all3").style.display=(window.getComputedStyle(document.querySelector('#all3')).display=='none') ? "block" : "none";
+        }
+        document.querySelector("#FR").onclick = function() {
+            document.querySelector("#all2").style.display=(window.getComputedStyle(document.querySelector('#all2')).display=='none') ? "block" : "none";
+        }
+        document.querySelector("#boutoncroix2").onclick = function() {
+            document.querySelector("#all2").style.display=(window.getComputedStyle(document.querySelector('#all2')).display=='none') ? "block" : "none";
+        }
+        document.querySelector("#IE").onclick = function() {
+            document.querySelector("#all5").style.display=(window.getComputedStyle(document.querySelector('#all5')).display=='none') ? "block" : "none";
+        }
+        document.querySelector("#boutoncroix5").onclick = function() {
+            document.querySelector("#all5").style.display=(window.getComputedStyle(document.querySelector('#all5')).display=='none') ? "block" : "none";
+        }
+        document.querySelector("#IS").onclick = function() {
+            document.querySelector("#all4").style.display=(window.getComputedStyle(document.querySelector('#all4')).display=='none') ? "block" : "none";
+        }
+        document.querySelector("#boutoncroix4").onclick = function() {
+            document.querySelector("#all4").style.display=(window.getComputedStyle(document.querySelector('#all4')).display=='none') ? "block" : "none";
+        }
 
-document.querySelector("#boutoncroix").onclick = function() { 
-document.querySelector("#all").style.display=(window.getComputedStyle(document.querySelector('#all')).display=='none') ? "block" : "none"; 
-}
-
-
-
-
-document.querySelector("#ES").onclick = function() { 
-document.querySelector("#all3").style.display=(window.getComputedStyle(document.querySelector('#all3')).display=='none') ? "block" : "none"; 
-}
-document.querySelector("#boutoncroix3").onclick = function() { 
-document.querySelector("#all3").style.display=(window.getComputedStyle(document.querySelector('#all3')).display=='none') ? "block" : "none"; 
-}
-
-document.querySelector("#FR").onclick = function() {
-
-    document.querySelector("#all2").style.display=(window.getComputedStyle(document.querySelector('#all2')).display=='none') ? "block" : "none";
-}
-
-document.querySelector("#boutoncroix2").onclick = function() {
-    document.querySelector("#all2").style.display=(window.getComputedStyle(document.querySelector('#all2')).display=='none') ? "block" : "none";
-}
-
-
-
-
-document.querySelector("#IE").onclick = function() {
-    document.querySelector("#all5").style.display=(window.getComputedStyle(document.querySelector('#all5')).display=='none') ? "block" : "none";
-}
-document.querySelector("#boutoncroix5").onclick = function() {
-    document.querySelector("#all5").style.display=(window.getComputedStyle(document.querySelector('#all5')).display=='none') ? "block" : "none";
-}
-
-document.querySelector("#IS").onclick = function() {
-    document.querySelector("#all4").style.display=(window.getComputedStyle(document.querySelector('#all4')).display=='none') ? "block" : "none";
-}
-document.querySelector("#boutoncroix4").onclick = function() {
-    document.querySelector("#all4").style.display=(window.getComputedStyle(document.querySelector('#all4')).display=='none') ? "block" : "none";
-}
 
 
 

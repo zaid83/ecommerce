@@ -47,7 +47,7 @@
     <input type="password" class="form-control" id="mdp" name="mdp" placeholder="Votre Mot de Passe">
   </div>
      <div class="form-group">
-    <input type="submit" class="form-control" id="valideconnexion" name="formconnexion" placeholder="Se connecter" >
+    <input type="submit" class="form-control" id="valideconnexion" name="formconnexion" value="Se connecter" >
   </div>
 </form>
 </div>
