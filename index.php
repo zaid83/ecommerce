@@ -53,7 +53,7 @@
                     <h5 class="simplon wow bounceInUp">Vente de fromages européens</h5>
 
                     <p class="boutonentrertexte ">
-                       <a class="boutonentrer" href="pagefromages_view.php">Commencer</a>
+                       <a class="boutonentrer" href="views/pagefromages_view.php">Commencer</a>
                    </p>
                </div>
            </div>

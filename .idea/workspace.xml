@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af7e9424-b8fa-4465-aa85-b50179d06055" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/controller/addlivraison.php" afterPath="$PROJECT_DIR$/controller/addlivraison.php" />
-      <change beforePath="$PROJECT_DIR$/css/multiforms.css" afterPath="$PROJECT_DIR$/css/multiforms.css" />
-      <change beforePath="$PROJECT_DIR$/html/formulaire_inscription.php" afterPath="$PROJECT_DIR$/html/formulaire_inscription.php" />
       <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change beforePath="$PROJECT_DIR$/models/ficheproduits.php" afterPath="$PROJECT_DIR$/models/ficheproduits.php" />
-      <change beforePath="$PROJECT_DIR$/views/connexion_view.php" afterPath="$PROJECT_DIR$/views/connexion_view.php" />
-      <change beforePath="$PROJECT_DIR$/views/pagefromages_view.php" afterPath="$PROJECT_DIR$/views/pagefromages_view.php" />
-      <change beforePath="$PROJECT_DIR$/views/panier.php" afterPath="$PROJECT_DIR$/views/panier.php" />
-      <change beforePath="$PROJECT_DIR$/views/profil_view.php" afterPath="$PROJECT_DIR$/views/profil_view.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,17 +28,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1853">
-              <caret line="109" column="13" lean-forward="true" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
+            <state relative-caret-position="396">
+              <caret line="62" column="33" lean-forward="true" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ficheproduits.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ficheproduits.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/ficheproduits.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -243,7 +234,7 @@
       <option name="presentableId" value="Default" />
       <updated>1533122892948</updated>
       <workItem from="1533122895685" duration="3103000" />
-      <workItem from="1533150657422" duration="62318000" />
+      <workItem from="1533150657422" duration="63031000" />
     </task>
     <task id="LOCAL-00001" summary="mise ajour panier&#10;dernieres commandes dans profil&#10;pages commandes">
       <created>1533287860798</created>
@@ -256,7 +247,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65421000" />
+    <option name="totallyTimeSpent" value="66134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -456,14 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="109" column="13" lean-forward="true" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/ficheproduits.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -475,6 +458,14 @@
             <marker date="1533465961019" expanded="true" signature="6006:6093" ph="SELECT * FRO... fromage" />
             <marker date="1533465961019" expanded="true" signature="7822:7909" ph="SELECT * FRO... fromage" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="62" column="33" lean-forward="true" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
