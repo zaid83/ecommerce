@@ -1,7 +1,7 @@
+<?php $title = 'Inscrivez-vous'; ?>
+<?php require '../includes/head.php' ?>
 
-<?php require 'head.php' ?>
-
-<?php require '../controller/add_inscription.php' ?>
+<?php require '../includes/add_inscription.php' ?>
 
 <!-- Les liens CSS -->
 <title> Inscription </title>
@@ -17,7 +17,7 @@
 
       <div class="texteaccueil text-center">
 
-                        <!--si une session est ouverte -->
+        <!--si une session est ouverte -->
 
 
         <h1 class="fromagerie ">Fromagerie Simplon</h1>
@@ -34,13 +34,13 @@
 
       <div class="inscription text-center ">
 
-        <?php require 'navbar.php' ?>
-       
+        <?php require '../includes/navbar.php' ?>
+        
         <h2>Inscription</h2>
 
         <div class="formulaire"> 
 
-          <?php require '../html/formulaire_inscription.php' ?>
+          <?php require '../includes/formulaire_inscription.php' ?>
 
         </div>
 
@@ -78,7 +78,6 @@
 
     </div>
   </div>
-
 </div>
-
 </body>
+<?php require '../includes/footer.php'; ?>

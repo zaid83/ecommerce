@@ -1,21 +1,27 @@
 
+
+<!-- CETTE PAGE EST INCLUT DANS LA PAGE INSCRIPTION_VIEW , LE CODE PHP QUI PERMET DE S'INSCRIRE'-->
+
+
+
+
 <?php
 
 //lorsque j'ai terminé l'inscription...
 if(isset($_POST['forminscription']))  
 {
    //sécurisé et simplifié les variables
- $nom = htmlspecialchars($_POST['nom']);
- $mail = htmlspecialchars($_POST['mail']);
- $prenom = htmlspecialchars($_POST['prenom']);
- $adresse = htmlspecialchars($_POST['adresse']);
- $codepostal = htmlspecialchars($_POST['codepostal']);
- $telephone = htmlspecialchars($_POST['telephone']);
- $ville = htmlspecialchars($_POST['ville']);
+ $nom = $_POST['nom'];
+ $mail = $_POST['mail'];
+ $prenom = $_POST['prenom'];
+ $adresse = $_POST['adresse'];
+ $codepostal = $_POST['codepostal'];
+ $telephone = $_POST['telephone'];
+ $ville = $_POST['ville'];
 
 $imgclient="http://via.placeholder.com/300";
-   $mdp = ($_POST['mdp']); //hashe le mot de passe
-   $mdp2 = ($_POST['mdp2']);
+   $mdp = $_POST['mdp']; //hashe le mot de passe
+   $mdp2 = $_POST['mdp2'];
 
     // si les champs ne sont pas vides...
    if(!empty($_POST['nom']) AND !empty($_POST['mail'])  AND !empty($_POST['mdp']) AND !empty($_POST['mdp2']) AND !empty($_POST['prenom'])  AND !empty($_POST['telephone']) AND !empty($_POST['adresse']) AND !empty($_POST['ville'])  AND !empty($_POST['codepostal'])) {

@@ -18,11 +18,19 @@ font-family: 'Cinzel', serif;
 }
 .backgroundfromage{
     position: relative;
+    max-width:100%;
+    height:auto;
+}
+.backgroundfromage img{
+    max-width:100%;
+    height:auto;
 }
 .imagefromage{
     position: absolute;
     left:50px;
     top:325px;
+    max-width:100%;
+    height:auto;
 }
 .logosimplon{
     

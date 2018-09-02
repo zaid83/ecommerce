@@ -1,13 +1,12 @@
+
+<!-- CETTE PAGE EST INCLUT DANS LA PAGE PANIER , LE CODE PHP QUI PERMET DE COMMANDER DES ARTICLES ET D'ENREGISTRER LA LIVRAISON-->
+
+
 <?php
-require  "../models/db.class.php";
-$BDD = new BDD();
-
-require  "../models/panier.class.php";
-
-
-$panier = new panier($BDD);
-
-
+require  "include_class.php";
+if (!isset($_SESSION['id'])){
+    header("Location: ../views/connexion_view.php");
+}
 
 if(isset($_POST['commandesubmit']))
 {

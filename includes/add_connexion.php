@@ -1,3 +1,6 @@
+           
+         <!-- CETTE PAGE EST INCLUT DANS LA PAGE CONNEXION_VIEW , LE CODE PHP QUI PERMET DE SE CONNECTER-->
+
             <?php
 
 
@@ -6,8 +9,8 @@
 
 
                  //sécurisé et simplifié les variables
-               $mailconnect = htmlspecialchars($_POST['mail']);
-               $mdpconnect = ($_POST['mdp']);
+               $mailconnect = $_POST['mail'];
+               $mdpconnect = $_POST['mdp'];
 
                //pass hashe
             $long = strlen($mdpconnect);

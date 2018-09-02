@@ -1,6 +1,14 @@
 <?php
- require '../views/_head.php'; 
- // json renvoie une erreur
+session_start();
+require  "../class/db.class.php";
+require  "../class/panier.class.php";
+
+$BDD = new BDD(); 
+$panier = new panier($BDD);
+
+
+
+
 
 // si il existe un id 
   if(isset($_GET['id'])){

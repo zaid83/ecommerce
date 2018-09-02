@@ -11,6 +11,7 @@ body {
     font-family: 'Noticia Text', serif; 
     padding:0;
     margin:0;
+    overflow-x: hidden;
 }
 
 /**************************************/
@@ -18,7 +19,7 @@ body {
 /**************************************/
 
 .row {
- position:absolute;
+ 
  top:0;
  right:0;
  left:0;

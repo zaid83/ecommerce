@@ -1,11 +1,12 @@
     <?php session_start();
-    require_once "models/db.class.php";
+    require_once "class/db.class.php";
     $BDD = new BDD();
     ?>
     <html>
     <head>
 
        <meta charset="utf-8">
+       <title>Page d'accueil</title>
 
        <meta name="viewport" content="">
 
@@ -16,6 +17,9 @@
        <link rel="stylesheet" type="text/css" href="css/styleacceuil.css">
        <link rel="stylesheet" type="text/css" href="css/responsive-accueil.css">
        <link rel="stylesheet" href="css/animate.css">
+         <link rel="stylesheet" href="css/footer.css">
+         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
 
        <!-- Les polices de texte -->
        <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
@@ -50,7 +54,7 @@
                     <?php } ?>
 
                     <h1 class="fromagerie wow slideInLeft">Fromagerie Simplon</h1>
-                    <h5 class="simplon wow bounceInUp">Vente de fromages européens</h5>
+                    <h5 class="simplon wow wow slideInLeft">Vente de fromages européens</h5>
 
                     <p class="boutonentrertexte ">
                        <a class="boutonentrer" href="views/pagefromages_view.php">Commencer</a>
@@ -113,3 +117,40 @@
     </div>
 
     </body>
+
+
+
+
+    <footer class="footer-distributed">
+
+      <div class="footer-right">
+
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+
+      </div>
+
+      <div class="footer-left">
+
+        <p class="footer-links">
+          <a href="views/index_view.php">Accueil</a>
+          ·
+          <a href="views/produits_view.php">Nos produits</a>
+          ·
+          <a href="#">Livraison</a>
+          ·
+          <a href="#">Mentions Légales</a>
+          ·
+          <a href="#">Faq</a>
+          ·
+          <a href="views/contact_view.php">Contact</a>
+        </p>
+
+        <p>Simplon Team &copy; 2018</p>
+      </div>
+
+    </footer>
+
+</html>
